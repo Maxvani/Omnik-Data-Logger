@@ -28,7 +28,7 @@ class DomoticzOutput(PluginLoader.Plugin):
                 self.config.get('domoticz', 'stringvoltage_idx'): msg.v_pv(1),
                 self.config.get('domoticz', 'stringcurrent_idx'): msg.i_pv(1),
                 self.config.get('domoticz', 'AC_voltage_idx'): msg.v_ac(1),
-                self.config.get('domoticz', 'Power_Dailyenergy_idx'): str(msg.p_ac(1)) + ';' + str(msg.e_today * 1000),
+                self.config.get('domoticz', 'Power_Dailyenergy_idx'): str(msg.p_ac(1)) + ';' + str(msg.e_total * 1000),
                 self.config.get('domoticz', 'Lifetimeenergy_idx'): msg.e_total
             }
 
