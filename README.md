@@ -24,7 +24,7 @@ Omnikol-PV-Logger by t3kpunk (https://github.com/t3kpunk/Omniksol-PV-Logger).
 ## Installation and Setup
 
 * Install Python
-* Git clone the source with `git clone https://github.com/Woutrrr/Omnik-Data-Logger.git`
+* Git clone the source with `git clone https://github.com/Maxvani/Omnik-Data-Logger.git`
 * Copy the config-org.cfg to config.cfg
 * Change the settings in config.cfg
 * Test your settings with `python LiveStats.py`, when successful you should see
